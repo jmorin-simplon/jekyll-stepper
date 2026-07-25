@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
   }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "jekyll", "~> 3.9"
-  spec.add_dependency "kramdown-parser-gfm", "~> 1.0"
+  spec.add_dependency "jekyll", ">= 3.9"
+  spec.add_dependency "kramdown-parser-gfm", ">= 1.0"
 
   if spec.respond_to?(:metadata)
     spec.metadata["allowed_push_host"] = "https://rubygems.org"
