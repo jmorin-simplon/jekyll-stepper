@@ -55,6 +55,16 @@ More content here.
 - A navigation bar with Previous/Next buttons is added automatically
 - The first step is open by default
 
+### Note for github-pages users
+
+The `github-pages` gem enforces `safe: true` locally, which blocks non-whitelisted plugins. To preview stepper blocks during local development, prefix your command with:
+
+```bash
+DISABLE_WHITELIST=1 bundle exec jekyll serve
+```
+
+This is not needed when deploying via GitHub Actions.
+
 ## Styling
 
 The plugin generates HTML with these CSS classes:
