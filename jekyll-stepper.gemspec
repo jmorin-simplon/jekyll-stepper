@@ -6,11 +6,11 @@ Gem::Specification.new do |spec|
   spec.name          = "jekyll-stepper"
   spec.version       = Jekyll::Stepper::VERSION
   spec.authors       = ["Jean-Francois Morin"]
-  spec.email         = ["jfm@example.com"]
+  spec.email         = ["jmorin@simplon.co"]
 
   spec.summary       = "A Jekyll plugin for step-by-step tutorial accordions"
   spec.description   = "Converts fenced code blocks with the 'stepper' language identifier into interactive accordion components with navigation for step-by-step tutorials."
-  spec.homepage      = "https://github.com/jeanfrancois-morin/jekyll-stepper"
+  spec.homepage      = "https://github.com/jmorin-simplon/jekyll-stepper"
   spec.license       = "MIT"
 
   spec.required_ruby_version = ">= 2.7.0"

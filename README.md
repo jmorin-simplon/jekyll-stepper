@@ -27,7 +27,7 @@ plugins:
 
 Use a fenced code block with `stepper` as the language identifier:
 
-````markdown
+`````markdown
 ````stepper
 # Step 1: First step title
 
@@ -45,7 +45,7 @@ Content for the second step, including code blocks:
 
 More content here.
 ````
-````
+`````
 
 ### Syntax rules
 
