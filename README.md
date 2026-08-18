@@ -57,13 +57,7 @@ More content here.
 
 ### Note for github-pages users
 
-The `github-pages` gem enforces `safe: true` locally, which blocks non-whitelisted plugins. To preview stepper blocks during local development, prefix your command with:
-
-```bash
-DISABLE_WHITELIST=1 bundle exec jekyll serve
-```
-
-This is not needed when deploying via GitHub Actions.
+The `github-pages` gem enforces `safe: true` which blocks non-whitelisted plugins like `jekyll-stepper`. Do not use `github-pages` in your `Gemfile` — use `jekyll` directly instead (see the [theme documentation](https://simplonco.github.io/simplonline-ressources-jekyll-theme/) for a complete Gemfile example).
 
 ## Styling
 
